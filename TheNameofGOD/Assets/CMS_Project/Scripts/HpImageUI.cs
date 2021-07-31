@@ -42,10 +42,10 @@ public class HpImageUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            OnDamaged(damageValue);
-        }
+        //if (Input.GetKeyDown(KeyCode.K))
+        //{
+        //    OnDamaged(damageValue);
+        //}
         //if (Input.GetKeyDown(KeyCode.L))
         //{
         //    OnHealing(healValue);

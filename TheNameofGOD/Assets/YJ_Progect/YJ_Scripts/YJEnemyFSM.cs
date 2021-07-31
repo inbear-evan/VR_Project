@@ -33,6 +33,8 @@ public class YJEnemyFSM : MonoBehaviour
     float gravity = -9.8f;
     Vector3 movement;
     Vector3 dir;
+    bool isJumped = false;
+    protected float jumpTimeDivide = 50f;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,16 +55,28 @@ public class YJEnemyFSM : MonoBehaviour
 
     private void Jumped()
     {
-        if (cc.isGrounded)
+        Vector3 v = dir;
+        if (isJumped)
         {
-            m_State = EnemyState.Move;
+            if (cc.isGrounded)
+            {
+                m_State = EnemyState.Move;
+                yVelocity = 0;
+                jumpTimeDivide = 50f;
+                isJumped = false;
+            }
+            else
+            {
+                yVelocity += gravity * Time.deltaTime;
+                v.y = yVelocity;
+                //v.y = 0;
+            }
         }
         else
         {
-            yVelocity += gravity * Time.deltaTime;
+            v.y = flyPower*flyPower;
+            isJumped = true;
         }
-        Vector3 v = dir;
-        v.y = yVelocity;
         cc.Move(v * Time.deltaTime);
     }
     void Move()
@@ -76,6 +90,7 @@ public class YJEnemyFSM : MonoBehaviour
         if (Vector3.Distance(transform.position,player.position)>attackDistance)
         {
             dir = (player.position - transform.position).normalized;
+            dir.y = gravity;
             cc.Move(dir * moveSpeed * Time.deltaTime);
         }
         else
@@ -83,9 +98,7 @@ public class YJEnemyFSM : MonoBehaviour
             m_State = EnemyState.Attack;
             currentTime = attackDelay;
         }
-
     }
-
     void Attack()
     {
         if(Vector3.Distance(transform.position,player.position)<attackDistance)
@@ -106,19 +119,19 @@ public class YJEnemyFSM : MonoBehaviour
             currentTime = 0;
         }
     }
-    void Return()
-    {
-        if(Vector3.Distance(transform.position,originPos)>0.1f)
-        {
-            dir = (originPos - transform.position).normalized;
-            cc.Move(dir * moveSpeed * Time.deltaTime);
-        }
-        else
-        {
-            transform.position = originPos;
-            m_State = EnemyState.Idle;
-        }    
-    }
+    //void Return()
+    //{
+    //    if(Vector3.Distance(transform.position,originPos)>0.1f)
+    //    {
+    //        dir = (originPos - transform.position).normalized;
+    //        cc.Move(dir * moveSpeed * Time.deltaTime);
+    //    }
+    //    else
+    //    {
+    //        transform.position = originPos;
+    //        m_State = EnemyState.Idle;
+    //    }    
+    //}
     //public void hitEnemy(int hitPower)
     //{
     //    if(m_State == EnemyState.Damaged && m_State == EnemyState.Die && m_State==EnemyState.Return)
@@ -170,9 +183,9 @@ public class YJEnemyFSM : MonoBehaviour
             case EnemyState.Attack:
                 Attack();
                 break;
-            case EnemyState.Return: //이건 필요 없을 듯...
-                //Return();
-                break;
+            //case EnemyState.Return: //이건 필요 없을 듯...
+            //    //Return();
+            //    break;
             case EnemyState.Damaged:
                 Damaged();
                 break;
@@ -182,8 +195,6 @@ public class YJEnemyFSM : MonoBehaviour
             case EnemyState.Die:
                 Die();
                 break;
-
-
         }
     }
 

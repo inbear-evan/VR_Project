@@ -7,10 +7,15 @@ using UnityEngine;
 public class EnemyHP : YJEnemyFSM
 {
     public int currentEnemyHP = 50;
+    int prevEnemyHP;
     internal void DoDamage(int damage)
     {
         currentEnemyHP -= damage;
         Debug.Log("Enemy HP : " + currentEnemyHP);
+        if(prevEnemyHP != currentEnemyHP)
+        {
+            yVelocity = 0;
+        }
         // 만약 HP가 0이하라면
         if (currentEnemyHP <= 0)
         {
@@ -18,6 +23,10 @@ public class EnemyHP : YJEnemyFSM
             m_State = EnemyState.Die;
             Destroy(gameObject);
         }
-
+        prevEnemyHP = currentEnemyHP;
+    }
+    internal void UpperState()
+    {
+        m_State = EnemyState.Jumped;
     }
 }
