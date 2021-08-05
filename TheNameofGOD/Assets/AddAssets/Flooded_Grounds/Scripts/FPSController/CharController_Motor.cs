@@ -9,6 +9,7 @@ public class CharController_Motor : MonoBehaviour {
 	public float WaterHeight = 15.5f;
 	CharacterController character;
 	public GameObject cam;
+	
 	float moveFB, moveLR;
 	float rotX, rotY;
 	public bool webGLRightClickRotation = true;
@@ -36,35 +37,41 @@ public class CharController_Motor : MonoBehaviour {
 
 
 	void Update(){
-		moveFB = Input.GetAxis ("Horizontal") * speed;
-		moveLR = Input.GetAxis ("Vertical") * speed;
+        moveFB = Input.GetAxis("Horizontal") * speed;
+        moveLR = Input.GetAxis("Vertical") * speed;
 
-		rotX = Input.GetAxis ("Mouse X") * sensitivity;
-		rotY = Input.GetAxis ("Mouse Y") * sensitivity;
+        //rotX = Input.GetAxis("Mouse X") * sensitivity;
+        //rotY = Input.GetAxis("Mouse Y") * sensitivity;
 
-		//rotX = Input.GetKey (KeyCode.Joystick1Button4);
-		//rotY = Input.GetKey (KeyCode.Joystick1Button5);
+        rotX = cam.transform.rotation.x * sensitivity;
+        rotY = cam.transform.rotation.y * sensitivity;
+        CheckForWaterHeight();
 
-		CheckForWaterHeight ();
+        //Vector3 movement = new Vector3 (moveFB, gravity, moveLR);
 
+        //if (webGLRightClickRotation)
+        //{
+        //    if (Input.GetKey(KeyCode.Mouse0))
+        //    {
+        //        CameraRotation(cam, rotX, rotY);
+        //    }
+        //}
+        //else if (!webGLRightClickRotation)
+        //{
+        //    CameraRotation(cam, rotX, rotY);
+        //}
 
-		Vector3 movement = new Vector3 (moveFB, gravity, moveLR);
+        //CameraRotation(cam, rotX, -rotY);
+        //movement = cam.transform.rotation * movement;
+        //character.Move (movement * Time.deltaTime);
 
+        Vector3 dir = new Vector3(moveFB, 0, moveLR);
+        //Vector3 dir = new Vector3(moveLR, 0, moveFB);
 
-
-		if (webGLRightClickRotation) {
-			if (Input.GetKey (KeyCode.Mouse0)) {
-				CameraRotation (cam, rotX, rotY);
-			}
-		} else if (!webGLRightClickRotation) {
-			CameraRotation (cam, rotX, rotY);
-		}
-
-		movement = transform.rotation * movement;
-		character.Move (movement * Time.deltaTime);
+        dir = cam.transform.TransformDirection(dir);
+		dir.y = 0;
+		character.Move(dir * Time.deltaTime);
 	}
-
-
 	void CameraRotation(GameObject cam, float rotX, float rotY){		
 		transform.Rotate (0, rotX * Time.deltaTime, 0);
 		cam.transform.Rotate (-rotY * Time.deltaTime, 0, 0);

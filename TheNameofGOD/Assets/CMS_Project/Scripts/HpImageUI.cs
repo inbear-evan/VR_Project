@@ -24,7 +24,7 @@ public class HpImageUI : MonoBehaviour
     public int totalHp = 0;
     public int damageValue = 10;
     public int healValue = 5;
- 
+    public bool playerDamage = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -68,7 +68,6 @@ public class HpImageUI : MonoBehaviour
             else if (totalHpBuf > MaxHpValue)
             {
                 HpUI[i].value = MaxHpValue;
-                
             }
             else
             {
@@ -88,14 +87,17 @@ public class HpImageUI : MonoBehaviour
     {
         //HP를 줄인다.
         //Player HP상태 가져옴
-        int sliderCnt = 1;
+        float sliderCnt = 1;
         StopCoroutine("IEDamage");
         StartCoroutine("IEDamage", toggleTime);
         totalHp -= damage;
         kyg_PlayerHP.instance.CurrentHp = totalHp;
 
         Debug.Log("Damage");
-        if (totalHp < 0) return;
+        if (totalHp < 0)
+        {
+            playerDamage = false;
+        }
         int totalHpBuf = totalHp;
         for (int i = HpUI.Length - 1; i >= 0; i--)
         {
@@ -106,7 +108,7 @@ public class HpImageUI : MonoBehaviour
             else if (totalHpBuf <= 0)
             {
                 HpUI[i].value = 0;
-                sliderCnt++;
+                sliderCnt+=1.5f;
             }
             else
             {

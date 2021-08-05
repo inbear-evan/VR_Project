@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class YJEnemyFSM : MonoBehaviour
 {
-    protected enum EnemyState
+    public enum EnemyState
     {
         Idle,
         Move,
@@ -18,7 +18,7 @@ public class YJEnemyFSM : MonoBehaviour
     public float attackDistance = 2f;
     public float moveSpeed = 5f;
     CharacterController cc;
-    protected EnemyState m_State;
+    public EnemyState m_State;
     public float findDistance = 8f;
     Transform player;
     float currentTime = 0;
@@ -41,16 +41,27 @@ public class YJEnemyFSM : MonoBehaviour
         m_State = EnemyState.Idle;
         player = GameObject.Find("Player").transform;
         cc = GetComponent<CharacterController>();
-        originPos = transform.position;
-        cc.Move(new Vector3(0, gravity, 0)); //초기에 바닥으로 붙도록 함
+        //originPos = transform.position;
+        //초기에 바닥으로 붙도록 함
     }
 
     void Idle()
     {
-        if(Vector3.Distance(transform.position,player.position)<findDistance)
+        //if(Vector3.Distance(transform.position,player.position)<findDistance)
+        //{
+        //m_State = EnemyState.Move;
+        //}
+
+
+        Ray ray = new Ray(transform.position, -transform.up);
+        RaycastHit hitInfo;
+        int layer = 1 << LayerMask.NameToLayer("Ground");
+        if (Physics.Raycast(ray, out hitInfo, float.MaxValue, layer))
         {
+            transform.position = hitInfo.point;
             m_State = EnemyState.Move;
-        }    
+        }
+
     }
 
     private void Jumped()
@@ -62,11 +73,11 @@ public class YJEnemyFSM : MonoBehaviour
             {
                 m_State = EnemyState.Move;
                 yVelocity = 0;
-                jumpTimeDivide = 50f;
                 isJumped = false;
             }
             else
             {
+                
                 yVelocity += gravity * Time.deltaTime;
                 v.y = yVelocity;
                 //v.y = 0;
@@ -74,23 +85,26 @@ public class YJEnemyFSM : MonoBehaviour
         }
         else
         {
-            v.y = flyPower*flyPower;
+            v.z = flyPower * 2;
+            v.y = flyPower * flyPower;
             isJumped = true;
         }
         cc.Move(v * Time.deltaTime);
     }
     void Move()
     {
+        //yVelocity += gravity * Time.deltaTime;
         //if (Vector3.Distance(transform.position, originPos) > moveDistance)
         //{
         //    m_State = EnemyState.Return;
         //}
 
-        //else 
-        if (Vector3.Distance(transform.position,player.position)>attackDistance)
+        if (Vector3.Distance(transform.position, player.position) > attackDistance)
         {
-            dir = (player.position - transform.position).normalized;
-            dir.y = gravity;
+            dir = (player.position - transform.position);
+            dir.Normalize();
+            dir.y = yVelocity;
+            //dir.y = gravity;
             cc.Move(dir * moveSpeed * Time.deltaTime);
         }
         else
@@ -101,16 +115,17 @@ public class YJEnemyFSM : MonoBehaviour
     }
     void Attack()
     {
-        if(Vector3.Distance(transform.position,player.position)<attackDistance)
+        if (Vector3.Distance(transform.position, player.position) < attackDistance)
         {
             currentTime += Time.deltaTime;
-            if(currentTime>attackDelay)
+            if (currentTime > attackDelay)
             {
-                HpImageUI.instance.OnDamaged(attackPower);
+                if (HpImageUI.instance.totalHp != 0)
+                    HpImageUI.instance.OnDamaged(attackPower);
                 //player.GetComponent<HpImageUI>().OnDamaged(attackPower);
                 //player.GetComponent<kyg_PlayerHP>().CurrentHp -= attackPower;
                 //GetComponent<YJEnemy>().OnAttackHit(attackPower);
-                currentTime = 0; 
+                currentTime = 0;
             }
         }
         else
@@ -172,7 +187,7 @@ public class YJEnemyFSM : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch(m_State)
+        switch (m_State)
         {
             case EnemyState.Idle:
                 Idle();

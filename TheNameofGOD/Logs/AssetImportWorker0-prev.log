@@ -1,0 +1,741 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1110; Version 2004; 64bit' Language: 'ko' Physical Memory: 32644 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14183
+Successfully changed project path to: C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD
+C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 73.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Vendor:   
+    VRAM:     8081 MB
+    Driver:   27.21.14.5167
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002829 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.862 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.61.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.3 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2645.
+Total: 2.243600 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.630500 ms  DeleteObjects: 0.340400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
+  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e885ef429e2112a1d0f8526b7b808a65') in 0.095037 seconds
+  Import took 0.098342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.770827 seconds.
+  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
+  artifactKey: Guid(187b43af0ee32374f9540314a7a4f75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(187b43af0ee32374f9540314a7a4f75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5236c968375128eac595563eb7d314df') in 0.007024 seconds
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.9 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 2.512800 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.104300 ms MarkObjects: 1.755100 ms  DeleteObjects: 0.442300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 2.531800 ms (FindLiveObjects: 0.217000 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.886300 ms  DeleteObjects: 0.360400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2666.
+Total: 3.337100 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.500000 ms  DeleteObjects: 0.543700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 952.868560 seconds.
+  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
+  artifactKey: Guid(187b43af0ee32374f9540314a7a4f75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(187b43af0ee32374f9540314a7a4f75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b3c7e50c6fdeaad3bb1036b6a60dfd') in 0.119418 seconds
+  Import took 0.123968 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2671.
+Total: 2.515200 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.075600 ms MarkObjects: 1.807600 ms  DeleteObjects: 0.430100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 2.381100 ms (FindLiveObjects: 0.186000 ms CreateObjectMapping: 0.079700 ms MarkObjects: 1.729300 ms  DeleteObjects: 0.385100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006730 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 3.615800 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.743400 ms  DeleteObjects: 0.516900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 3.281100 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.522500 ms  DeleteObjects: 0.454900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 131.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 2.538200 ms (FindLiveObjects: 0.191500 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.885700 ms  DeleteObjects: 0.387700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 2.994300 ms (FindLiveObjects: 0.229300 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.254400 ms  DeleteObjects: 0.422200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2695.
+Total: 2.994100 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.209200 ms  DeleteObjects: 0.445300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 2.734300 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.099900 ms MarkObjects: 1.984100 ms  DeleteObjects: 0.404300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005890 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2703.
+Total: 2.916600 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.132100 ms MarkObjects: 2.079700 ms  DeleteObjects: 0.426400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006230 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 2.319900 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.092600 ms MarkObjects: 1.609500 ms  DeleteObjects: 0.394400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 2.598600 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.079200 ms MarkObjects: 1.892700 ms  DeleteObjects: 0.395900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 131.6 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 2.897500 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.158100 ms  DeleteObjects: 0.410000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 2.291500 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.075900 ms MarkObjects: 1.620200 ms  DeleteObjects: 0.391400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 2.872300 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.149800 ms  DeleteObjects: 0.405200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 2.902900 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.165600 ms  DeleteObjects: 0.436600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 2.825800 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.093500 ms MarkObjects: 2.082900 ms  DeleteObjects: 0.416400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005395 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 3.108500 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.242500 ms  DeleteObjects: 0.561100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2739.
+Total: 3.034100 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.079300 ms MarkObjects: 2.236600 ms  DeleteObjects: 0.473400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005978 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 2.660700 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.088300 ms MarkObjects: 1.903600 ms  DeleteObjects: 0.422900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 2.649700 ms (FindLiveObjects: 0.239000 ms CreateObjectMapping: 0.098100 ms MarkObjects: 1.890800 ms  DeleteObjects: 0.420800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 2.541900 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.087400 ms MarkObjects: 1.833500 ms  DeleteObjects: 0.404400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 131.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2755.
+Total: 2.672200 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.107200 ms MarkObjects: 1.871700 ms  DeleteObjects: 0.420600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2759.
+Total: 2.697300 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.160900 ms MarkObjects: 1.890400 ms  DeleteObjects: 0.399400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 2.877300 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.153600 ms MarkObjects: 1.928900 ms  DeleteObjects: 0.442800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2767.
+Total: 2.388900 ms (FindLiveObjects: 0.214000 ms CreateObjectMapping: 0.082600 ms MarkObjects: 1.694200 ms  DeleteObjects: 0.397400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.3 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2771.
+Total: 2.574700 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.878500 ms  DeleteObjects: 0.397100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

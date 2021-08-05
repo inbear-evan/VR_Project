@@ -24,8 +24,10 @@ public class kyg_Pistol : MonoBehaviour
     void Update()
     {
         // 만약 마우스 왼쪽 버튼이 눌리면
-        if (Input.GetButtonDown("Fire1"))
+        //if (Input.GetButtonDown("Fire1"))
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
         {
+            print("Tang");
             // 카메라위치에서 카메라앞방향으로 시선을 만들고
             Ray ray = new Ray(cam.transform.position, cam.transform.forward);
             // 만약 바라봤는데 닿은곳이 있다면

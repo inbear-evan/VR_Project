@@ -16,25 +16,23 @@ public class kyg_WeaponSwitching : MonoBehaviour
     void Update()
     {
         int previousSelectedWeapon = selectedWeapon;
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        //if (Input.GetKeyDown(KeyCode.Alpha1))
+        if(OVRInput.GetDown(OVRInput.Button.PrimaryThumbstick,OVRInput.Controller.RTouch))
         {
             //맨손
             selectedWeapon = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+
+        if (OVRInput.GetDown(OVRInput.Button.One, OVRInput.Controller.RTouch))
         {
             //검
             selectedWeapon = 1;
+
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (OVRInput.GetDown(OVRInput.Button.Two,OVRInput.Controller.RTouch))
         {
             //총
             selectedWeapon = 2;
-        }
-        if (Input.GetKey(KeyCode.Alpha4))
-        {
-            //성수
-            selectedWeapon = 3;
         }
 
         if (previousSelectedWeapon != selectedWeapon)
@@ -43,7 +41,7 @@ public class kyg_WeaponSwitching : MonoBehaviour
         }
     }
 
-    private void SelectedWeapon()
+    public void SelectedWeapon()
     {
         for (int i = 0; i < transform.childCount; i++)
         {
