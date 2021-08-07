@@ -16,6 +16,7 @@ public class kyg_LPistol : MonoBehaviour
     public GameObject BloodImpact;
     public GameObject muzzleEffect;
     Vector3 crosshairOriginSize;
+
     public float kAdjust = 1f;
 
     // Start is called before the first frame update
@@ -30,7 +31,7 @@ public class kyg_LPistol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        muzzleEffect.SetActive(false);
+         muzzleEffect.SetActive(false);
         Ray ray = new Ray(gun.position, gun.forward);
         RaycastHit hitInfo;
         if (Physics.Raycast(ray, out hitInfo))
@@ -44,11 +45,11 @@ public class kyg_LPistol : MonoBehaviour
             {
                 FireSound.Play();
                 muzzleEffect.transform.forward = gun.forward;
+                muzzleEffect.transform.position = gun.transform.position;
                 muzzleEffect.SetActive(true);
                 StartCoroutine(Haptics(1, 1, 0.1f, false, true));
                 if (hitInfo.transform.gameObject.name.Contains("Enemy"))
                 {
-                    print("ENMEY");
                     EnemyHP enemy = hitInfo.transform.GetComponent<EnemyHP>();
                     if (enemy != null)
                     {

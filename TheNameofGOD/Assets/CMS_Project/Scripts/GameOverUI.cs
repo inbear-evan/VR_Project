@@ -22,25 +22,25 @@ public class GameOverUI : MonoBehaviour
         {
             GetComponent<OldCinemaEffect>().enabled = true;
             Time.timeScale = 0.5f;
-            Vector3 zeroAngle = Vector3.Lerp(transform.rotation.eulerAngles, new Vector3(0,0,0), Time.deltaTime);
-            transform.eulerAngles -= new Vector3(Time.deltaTime * 15, 0, 0);
-            //Debug.Log(transform.eulerAngles.x);
+            //Vector3 zeroAngle = Vector3.Lerp(transform.rotation.eulerAngles, new Vector3(0,0,0), Time.deltaTime);
+            ////transform.eulerAngles -= new Vector3(Time.deltaTime * 15, 0, 0);
+            ////Debug.Log(transform.eulerAngles.x);
             
-            if (transform.eulerAngles.x <= 350)
-            {
-                gameOverImage.SetActive(true);
-                if (gameOverImage.transform.GetChild(0).localScale.x >= 10)
-                {
-                    //Restart -> PlayMap
-                    //Exit -> StartMap
-                    Time.timeScale = 0;
-                }
-                else
-                {
-                    gameOverImage.transform.GetChild(0).localScale += new Vector3(0.03f, 0.03f, 0);
-                }
+            ////if (transform.eulerAngles.x <= 350)
+            //{
+            //    gameOverImage.SetActive(true);
+            //    if (gameOverImage.transform.GetChild(0).localScale.x >= 10)
+            //    {
+            //        //Restart -> PlayMap
+            //        //Exit -> StartMap
+            //        Time.timeScale = 0;
+            //    }
+            //    else
+            //    {
+            //        gameOverImage.transform.GetChild(0).localScale += new Vector3(0.3f, 0.3f, 0);
+            //    }
 
-            }
+            //}
         }   
     }
 }

@@ -35,7 +35,7 @@ public class HpImageUI : MonoBehaviour
             HpUI[i].gameObject.SetActive(false);
             totalHp += MaxHpValue;
         }
-        damageUI.SetActive(false);
+        damageUI.SetActive(true);
         healingUI.SetActive(false);
     }
 
@@ -53,7 +53,6 @@ public class HpImageUI : MonoBehaviour
     }
     public void OnHealing(int heal)
     {
-
         StopCoroutine("IEHealing");
         StartCoroutine("IEHealing", toggleTime);
         totalHp += heal;
@@ -94,9 +93,14 @@ public class HpImageUI : MonoBehaviour
         kyg_PlayerHP.instance.CurrentHp = totalHp;
 
         Debug.Log("Damage");
-        if (totalHp < 0)
+        if (!playerDamage)
+        {
+            return;
+        }
+        if (totalHp <= 0)
         {
             playerDamage = false;
+            
         }
         int totalHpBuf = totalHp;
         for (int i = HpUI.Length - 1; i >= 0; i--)

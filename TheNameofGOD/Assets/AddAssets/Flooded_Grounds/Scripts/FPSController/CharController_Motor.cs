@@ -43,8 +43,8 @@ public class CharController_Motor : MonoBehaviour {
         //rotX = Input.GetAxis("Mouse X") * sensitivity;
         //rotY = Input.GetAxis("Mouse Y") * sensitivity;
 
-        rotX = cam.transform.rotation.x * sensitivity;
-        rotY = cam.transform.rotation.y * sensitivity;
+        //rotX = cam.transform.rotation.x * sensitivity;
+        //rotY = cam.transform.rotation.y * sensitivity;
         CheckForWaterHeight();
 
         //Vector3 movement = new Vector3 (moveFB, gravity, moveLR);

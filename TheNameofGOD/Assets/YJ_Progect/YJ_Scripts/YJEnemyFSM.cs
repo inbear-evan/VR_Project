@@ -11,7 +11,7 @@ public class YJEnemyFSM : MonoBehaviour
         Move,
         Attack,
         Return,
-        Damaged,
+        Hit,
         Jumped,
         Die
     }
@@ -35,14 +35,34 @@ public class YJEnemyFSM : MonoBehaviour
     Vector3 dir;
     bool isJumped = false;
     protected float jumpTimeDivide = 50f;
+ 
+    Animator ani;
+ 
     // Start is called before the first frame update
     void Start()
     {
+
         m_State = EnemyState.Idle;
         player = GameObject.Find("Player").transform;
         cc = GetComponent<CharacterController>();
+        ani = transform.GetChild(0).GetComponent<Animator>();
         //originPos = transform.position;
         //초기에 바닥으로 붙도록 함
+
+        for (int i = 0; i < 10000; i++)
+        {
+            Ray ray = new Ray(transform.position, -transform.up);
+            RaycastHit hitInfo;
+            int layer = 1 << LayerMask.NameToLayer("Ground");
+            if (Physics.Raycast(ray, out hitInfo, float.MaxValue, layer))
+            {
+                transform.position = hitInfo.point;
+                m_State = EnemyState.Move;
+                ani.SetTrigger("Walk");
+                break;
+            }
+        }
+       
     }
 
     void Idle()
@@ -52,7 +72,6 @@ public class YJEnemyFSM : MonoBehaviour
         //m_State = EnemyState.Move;
         //}
 
-
         Ray ray = new Ray(transform.position, -transform.up);
         RaycastHit hitInfo;
         int layer = 1 << LayerMask.NameToLayer("Ground");
@@ -60,12 +79,13 @@ public class YJEnemyFSM : MonoBehaviour
         {
             transform.position = hitInfo.point;
             m_State = EnemyState.Move;
+            ani.SetTrigger("Walk");
         }
-
     }
 
     private void Jumped()
     {
+        print("UPPER State");
         Vector3 v = dir;
         if (isJumped)
         {
@@ -74,22 +94,26 @@ public class YJEnemyFSM : MonoBehaviour
                 m_State = EnemyState.Move;
                 yVelocity = 0;
                 isJumped = false;
+                Vector3 ccRot = new Vector3(90, 0, 0);
+                transform.eulerAngles = ccRot;
             }
             else
             {
-                
                 yVelocity += gravity * Time.deltaTime;
                 v.y = yVelocity;
-                //v.y = 0;
+                cc.Move(v * Time.deltaTime);
             }
         }
         else
         {
-            v.z = flyPower * 2;
             v.y = flyPower * flyPower;
             isJumped = true;
+            cc.Move(v * Time.deltaTime);
+            Vector3 ccRot = new Vector3(-90, 0, 0);
+            transform.eulerAngles = ccRot;
         }
-        cc.Move(v * Time.deltaTime);
+
+
     }
     void Move()
     {
@@ -105,23 +129,39 @@ public class YJEnemyFSM : MonoBehaviour
             dir.Normalize();
             dir.y = yVelocity;
             //dir.y = gravity;
+            transform.GetChild(0).transform.forward = new Vector3(0, dir.y, dir.z).normalized;
             cc.Move(dir * moveSpeed * Time.deltaTime);
         }
         else
         {
             m_State = EnemyState.Attack;
+            ani.SetTrigger("Attack");
+            ani.Play("Attack");
             currentTime = attackDelay;
         }
     }
-    void Attack()
+    public void Attack()
     {
         if (Vector3.Distance(transform.position, player.position) < attackDistance)
         {
+            bool shieldChk = false;
             currentTime += Time.deltaTime;
             if (currentTime > attackDelay)
             {
-                if (HpImageUI.instance.totalHp != 0)
-                    HpImageUI.instance.OnDamaged(attackPower);
+                Collider[] cols = Physics.OverlapSphere(transform.position, 5);
+                for (int i = 0; i < cols.Length; i++)
+                {
+                    if (cols[i].gameObject.name.Contains("Shield"))
+                    {
+                        shieldChk = true;
+                    }
+                }
+
+                if (!shieldChk)
+                {
+                    if (HpImageUI.instance.totalHp != 0)
+                        HpImageUI.instance.OnDamaged(attackPower);
+                }
                 //player.GetComponent<HpImageUI>().OnDamaged(attackPower);
                 //player.GetComponent<kyg_PlayerHP>().CurrentHp -= attackPower;
                 //GetComponent<YJEnemy>().OnAttackHit(attackPower);
@@ -130,52 +170,31 @@ public class YJEnemyFSM : MonoBehaviour
         }
         else
         {
+            ani.SetTrigger("Walk");
             m_State = EnemyState.Move;
             currentTime = 0;
         }
     }
-    //void Return()
-    //{
-    //    if(Vector3.Distance(transform.position,originPos)>0.1f)
-    //    {
-    //        dir = (originPos - transform.position).normalized;
-    //        cc.Move(dir * moveSpeed * Time.deltaTime);
-    //    }
-    //    else
-    //    {
-    //        transform.position = originPos;
-    //        m_State = EnemyState.Idle;
-    //    }    
-    //}
-    //public void hitEnemy(int hitPower)
-    //{
-    //    if(m_State == EnemyState.Damaged && m_State == EnemyState.Die && m_State==EnemyState.Return)
-    //    { return; }
-    //    hp -= hitPower;
-    //    if(hp>0)
-    //    {
-    //        m_State = EnemyState.Damaged;
-    //        Damaged();
-    //    }
-    //    else 
-    //    {
-    //        m_State = EnemyState.Die;
-    //        Die();
-    //    }
-    //}
     void Damaged()
     {
+        ani.SetTrigger("Hit");
+        ani.Play("Hit");
+        //m_State = EnemyState.Move;
         StartCoroutine(DamageProcess());
     }
     IEnumerator DamageProcess()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         m_State = EnemyState.Move;
     }
-    void Die()
+    public void Die()
     {
-        StopAllCoroutines();
-        StartCoroutine(DieProcess());
+        ani.SetTrigger("Die");
+        ani.Play("Die");
+        //StopAllCoroutines();
+        Destroy(gameObject, 3);
+        //charaterMat.SetFloat("_DissolveAmount", Mathf.Sin(Time.time) / 2 + 0.5f);
+        //StartCoroutine(DieProcess());
     }
     IEnumerator DieProcess()
     {
@@ -189,9 +208,9 @@ public class YJEnemyFSM : MonoBehaviour
     {
         switch (m_State)
         {
-            case EnemyState.Idle:
-                Idle();
-                break;
+            //case enemystate.idle:
+            //    idle();
+            //    break;
             case EnemyState.Move:
                 Move();
                 break;
@@ -201,10 +220,11 @@ public class YJEnemyFSM : MonoBehaviour
             //case EnemyState.Return: //이건 필요 없을 듯...
             //    //Return();
             //    break;
-            case EnemyState.Damaged:
+            case EnemyState.Hit:
                 Damaged();
                 break;
             case EnemyState.Jumped:
+                print("Jumped State in!!");
                 Jumped();
                 break;
             case EnemyState.Die:

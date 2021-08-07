@@ -29,6 +29,7 @@ public class YJPhase : MonoBehaviour
         if(currentMonsterNums >= maxMonsterNums)
         {
             StopCoroutine("IEspwanTime");
+            GetComponent<BoxCollider>().gameObject.SetActive(false);
         }
     }
     IEnumerator IEspwanTime(float time)

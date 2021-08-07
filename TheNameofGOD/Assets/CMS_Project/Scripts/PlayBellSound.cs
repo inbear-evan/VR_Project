@@ -21,5 +21,10 @@ public class PlayBellSound : MonoBehaviour
                 chk = true;
             }
         }
+
+        if(chk && !sound.isPlaying)
+        {
+            Destroy(gameObject);
+        }
     }
 }

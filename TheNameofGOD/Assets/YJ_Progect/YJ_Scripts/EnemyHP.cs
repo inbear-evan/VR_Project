@@ -21,7 +21,11 @@ public class EnemyHP : YJEnemyFSM
         {
             // 적이 죽는 상태
             m_State = EnemyState.Die;
-            Destroy(gameObject);
+            Destroy(gameObject,10);
+        }
+        else
+        {
+            m_State = EnemyState.Hit;
         }
         prevEnemyHP = currentEnemyHP;
     }
