@@ -13,7 +13,7 @@ public class kyg_LWeaponSwitching : MonoBehaviour
     public float force = 5;
     bool sheildState = false;
     GameObject grabObject;
-    
+
     // Start is called before the first frame update
     void Start()
     {

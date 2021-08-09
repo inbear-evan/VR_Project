@@ -127,3 +127,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holyWaterDamage: 50
   hotlWaterArea: 2
+  expfac: {fileID: 100004, guid: 58816733a6cd1834e8956fc9e8bb255d, type: 3}

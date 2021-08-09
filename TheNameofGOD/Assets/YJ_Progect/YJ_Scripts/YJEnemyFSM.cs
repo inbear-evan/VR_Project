@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class YJEnemyFSM : MonoBehaviour
 {
@@ -35,13 +36,14 @@ public class YJEnemyFSM : MonoBehaviour
     Vector3 dir;
     bool isJumped = false;
     protected float jumpTimeDivide = 50f;
- 
+
     Animator ani;
- 
+    //public Slider hp;
+
+
     // Start is called before the first frame update
     void Start()
     {
-
         m_State = EnemyState.Idle;
         player = GameObject.Find("Player").transform;
         cc = GetComponent<CharacterController>();
@@ -62,7 +64,7 @@ public class YJEnemyFSM : MonoBehaviour
                 break;
             }
         }
-       
+
     }
 
     void Idle()
@@ -86,34 +88,33 @@ public class YJEnemyFSM : MonoBehaviour
     private void Jumped()
     {
         print("UPPER State");
-        Vector3 v = dir;
+
+        Vector3 v;
         if (isJumped)
         {
             if (cc.isGrounded)
             {
+                print("Jump to Ground ");
                 m_State = EnemyState.Move;
-                yVelocity = 0;
+                ani.SetTrigger("Walk");
+                yVelocity = gravity;
+                kyg_Sword.instance.upperAttack = false;
                 isJumped = false;
-                Vector3 ccRot = new Vector3(90, 0, 0);
-                transform.eulerAngles = ccRot;
             }
             else
             {
                 yVelocity += gravity * Time.deltaTime;
-                v.y = yVelocity;
-                cc.Move(v * Time.deltaTime);
+                //v.y = yVelocity;
+                //cc.Move(v * Time.deltaTime);
             }
         }
         else
         {
-            v.y = flyPower * flyPower;
+            yVelocity = flyPower;
+            //cc.Move(Vector3.up * yVelocity * 2);
             isJumped = true;
-            cc.Move(v * Time.deltaTime);
-            Vector3 ccRot = new Vector3(-90, 0, 0);
-            transform.eulerAngles = ccRot;
         }
-
-
+        cc.Move(new Vector3(0, 1, -transform.forward.z) * yVelocity * Time.deltaTime);
     }
     void Move()
     {
@@ -123,13 +124,15 @@ public class YJEnemyFSM : MonoBehaviour
         //    m_State = EnemyState.Return;
         //}
 
-        if (Vector3.Distance(transform.position, player.position) > attackDistance)
+        if (Vector3.Distance(transform.position, player.position) > attackDistance || prevState == EnemyState.Jumped)
         {
             dir = (player.position - transform.position);
             dir.Normalize();
+            //transform.GetChild(0).transform.rotation = Quaternion.FromToRotation(new Vector3(0,1,0), dir);
             dir.y = yVelocity;
             //dir.y = gravity;
-            transform.GetChild(0).transform.forward = new Vector3(0, dir.y, dir.z).normalized;
+            transform.forward = dir.normalized;
+            //transform.GetChild(0).transform.forward = new Vector3(dir.x, dir.y, dir.z).normalized;
             cc.Move(dir * moveSpeed * Time.deltaTime);
         }
         else
@@ -193,6 +196,7 @@ public class YJEnemyFSM : MonoBehaviour
         ani.Play("Die");
         //StopAllCoroutines();
         Destroy(gameObject, 3);
+
         //charaterMat.SetFloat("_DissolveAmount", Mathf.Sin(Time.time) / 2 + 0.5f);
         //StartCoroutine(DieProcess());
     }
@@ -203,9 +207,18 @@ public class YJEnemyFSM : MonoBehaviour
         Destroy(gameObject);
     }
 
+
+    EnemyState prevState;
     // Update is called once per frame
     void Update()
     {
+
+        if (kyg_Sword.instance.upperAttack)
+        {
+            m_State = EnemyState.Jumped;
+        }
+        print("Current State : " + m_State);
+
         switch (m_State)
         {
             //case enemystate.idle:
@@ -224,13 +237,13 @@ public class YJEnemyFSM : MonoBehaviour
                 Damaged();
                 break;
             case EnemyState.Jumped:
-                print("Jumped State in!!");
                 Jumped();
                 break;
             case EnemyState.Die:
                 Die();
                 break;
         }
+        prevState = m_State;
     }
 
 }

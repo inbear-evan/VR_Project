@@ -15,7 +15,6 @@ public class EnemyHitPlayer : MonoBehaviour
         print("ANiMation Attack !!!!!!!!!!!!!");
         enemyHit.Attack();
     }
-
     // Update is called once per frame
     void Update()
     {

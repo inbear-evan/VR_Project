@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class kyg_Sword : MonoBehaviour
 {
+
+    public static kyg_Sword instance;
+    private void Awake()
+    {
+        instance = this;
+    }
     public GameObject sparkFac;
     public Transform sparkPoint;
     public int swordDamage = 10;
-    bool upperAttack = false;
+    public bool upperAttack = false;
     public AudioSource sound;
     public AudioSource attackSound;
 
     Vector3 upperSwordPrev;
     float checkSwing;
+
 
     int soundNumPrev;
     private void Update()
@@ -20,18 +27,15 @@ public class kyg_Sword : MonoBehaviour
         //int soundNum = Random.Range(0, sound.Length);
         Vector3 upperSword = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RHand);
         Quaternion upperSwordRot = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RHand);
-        print("position : " + upperSword); //y -0.6
-        print("Rotation : " + upperSwordRot); // z 0.2
+        //print("position : " + upperSword); //y -0.6
+        //print("Rotation : " + upperSwordRot); // z 0.2
 
-        if(upperSword.y <= -0.6f && upperSwordRot.x <= -0.2f)
+        //if(upperSword.y <= -0.5f && upperSwordRot.z <= -0.5f)
         //if (Input.GetKeyDown(KeyCode.K))
-        {
-            print("UPPER ChkChange");
-            upperAttack = true;
-        }
+       
         checkSwing = (upperSwordPrev.x - upperSword.x);
         //soundNumPrev = soundNum;
-        if (Mathf.Abs(checkSwing) >= 0.05)
+        if (Mathf.Abs(checkSwing) >= 0.06)
         {
             //sound[soundNumPrev].Stop();
             //if(!sound[soundNum].isPlaying)
@@ -56,11 +60,10 @@ public class kyg_Sword : MonoBehaviour
             EnemyHP kygEnemy = other.gameObject.GetComponent<EnemyHP>();
             if (kygEnemy != null)
             {
-                if (upperAttack)
+                if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
                 {
-                    print("UPPER Send");
-                    kygEnemy.UpperState();
-                    upperAttack = false;
+                    print("UPPER ChkChange");
+                    upperAttack = true;
                 }
 
                 kygEnemy.DoDamage(swordDamage);
