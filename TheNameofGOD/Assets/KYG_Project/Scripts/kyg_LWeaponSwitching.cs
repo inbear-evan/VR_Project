@@ -39,7 +39,7 @@ public class kyg_LWeaponSwitching : MonoBehaviour
             //Grip예제로 변경
             LselectedWeapon = 2;
             float distance = Vector3.Distance(transform.position, HMD.position);
-            if(distance <= 1)
+            if (distance <= 1)
             {
                 GameObject bomb = Instantiate(holyWater);
                 bomb.transform.parent = holyWaterHand.transform;

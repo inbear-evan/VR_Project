@@ -41,6 +41,7 @@ public class YJEnemyFSM : MonoBehaviour
     //public Slider hp;
     Material mat;
     float alphaValue = 0;
+    public bool jumpAttack = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -75,10 +76,10 @@ public class YJEnemyFSM : MonoBehaviour
 
     }
 
-    private void Jumped()
+    public void Jumped()
     {
         print("UPPER State");
-
+        //m_State = EnemyState.Jumped;
         //Vector3 v;
         if (isJumped)
         {
@@ -89,22 +90,23 @@ public class YJEnemyFSM : MonoBehaviour
                     m_State = EnemyState.Move;
                     ani.SetTrigger("Walk");
                     yVelocity = gravity;
-                    kyg_Sword.instance.upperAttack = false;
+                    //cc.Move(dir * moveSpeed * Time.deltaTime);
                     isJumped = false;
                 }
             }
             else
             {
-                yVelocity += gravity * Time.deltaTime;
+                yVelocity += gravity * Time.deltaTime * 2;
                 //v.y = yVelocity;
             }
+
             cc.Move(new Vector3(0, 1, 0) * yVelocity * Time.deltaTime);
         }
         else
         {
             yVelocity = flyPower;
             isJumped = true;
-            cc.Move(new Vector3(0, 1, -transform.forward.z*yVelocity) * yVelocity * Time.deltaTime);
+            cc.Move(new Vector3(0, 1, -transform.forward.z/2) * yVelocity);
         }
         //cc.Move(new Vector3(0, 1, 0) * yVelocity * Time.deltaTime);
     }
@@ -113,19 +115,15 @@ public class YJEnemyFSM : MonoBehaviour
         if (prevState == EnemyState.Hit)
         {
             StopCoroutine(DamageProcess());
-            //ani.ResetTrigger("Hit");
-            //ani.SetTrigger("Walk");
         }
         if (Vector3.Distance(transform.position, player.position) > attackDistance || prevState == EnemyState.Jumped)
         {
             dir = (player.position - transform.position);
             dir.Normalize();
-            //transform.GetChild(0).transform.rotation = Quaternion.FromToRotation(new Vector3(0,1,0), dir);
             dir.y = yVelocity;
-            //dir.y = gravity;
-            transform.forward = dir.normalized;
-            //transform.GetChild(0).transform.forward = new Vector3(dir.x, dir.y, dir.z).normalized;
             cc.Move(dir * moveSpeed * Time.deltaTime);
+            dir.y = 0;
+            transform.forward = dir.normalized;
         }
         else
         {
@@ -222,13 +220,25 @@ public class YJEnemyFSM : MonoBehaviour
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);
     }
+    public bool JumpChange(bool upperAttack)
+    {
+        if (upperAttack)
+        {
+            m_State = EnemyState.Jumped;
+            print("Update Upper State");
+            upperAttack = false;
+        }
+        return upperAttack;
+    }
     EnemyState prevState;
     // Update is called once per frame
     void Update()
     {
-        if (kyg_Sword.instance.upperAttack && m_State != EnemyState.Die)
+        if (jumpAttack || prevState == EnemyState.Jumped)
         {
+            //kyg_Sword.instance.upperAttack = false;
             m_State = EnemyState.Jumped;
+            jumpAttack = false;
         }
         if (m_State == EnemyState.Die) m_State = EnemyState.Die;
         print("Current State : " + m_State);
@@ -247,7 +257,6 @@ public class YJEnemyFSM : MonoBehaviour
                 Die(); 
                 break;
         }
-
         prevState = m_State;
     }
 

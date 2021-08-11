@@ -78,6 +78,15 @@ public class kyg_LPistol : MonoBehaviour
         }
         else
         {
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch))
+            {
+                FireSound.Play();
+                muzzleEffect.transform.forward = gun.forward;
+                muzzleEffect.transform.position = gun.transform.position;
+                muzzleEffect.SetActive(true);
+                StartCoroutine(Haptics(1, 1, 0.1f, false, true));
+            }
+
             crossHair.position = ray.origin + ray.direction * 100;
             crossHair.localScale = (crosshairOriginSize * 100) * kAdjust;
             crossHair.LookAt(gun.position);

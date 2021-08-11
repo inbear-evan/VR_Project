@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1489077830716533650}
   - component: {fileID: 1489077830716533676}
   - component: {fileID: 5823762193243550355}
-  - component: {fileID: 5821060331513910560}
   - component: {fileID: 5529260391560522138}
   m_Layer: 9
   m_Name: Enemy2
@@ -30,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1489077830716533678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8104719235945291709}
   m_Father: {fileID: 0}
@@ -55,13 +54,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2.36
-  m_Radius: 0.48
+  m_Height: 3.5
+  m_Radius: 0.58
   m_SlopeLimit: 30
   m_StepOffset: 0.1
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1.05, z: 0}
+  m_Center: {x: 0, y: 1.68, z: 0}
 --- !u!114 &5823762193243550355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,22 +80,10 @@ MonoBehaviour:
   attackPower: 3
   moveDistance: 20
   yVelocity: 0
-  flyPower: 15
+  flyPower: 10
   shieldParticle: {fileID: 3465276431695851246, guid: 7e6d400d7925d5a48bab111c6c8966ce, type: 3}
+  jumpAttack: 0
   currentEnemyHP: 50
---- !u!114 &5821060331513910560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489077830716533678}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca261b895bced949a8fb73808788e58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hp: {fileID: 6028992566656713657}
 --- !u!82 &5529260391560522138
 AudioSource:
   m_ObjectHideFlags: 0
@@ -781,6 +768,18 @@ PrefabInstance:
     - target: {fileID: 5826255114371919667, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826255114371919667, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826255114371919667, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826255114371919667, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5826255114371919667, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
       propertyPath: m_LocalPosition.x

@@ -13,13 +13,8 @@ public class EnemyHP : YJEnemyFSM
     internal void DoDamage(int damage)
     {
         if (m_State == EnemyState.Jumped)
-        {
-            //m_State = EnemyState.Jumped;
-            if (prevEnemyHP != currentEnemyHP)
-            {
-                yVelocity = 0;
-            }
-
+        {   
+            yVelocity = 0;
         }
         if (currentEnemyHP <= 0)
         {
@@ -32,4 +27,5 @@ public class EnemyHP : YJEnemyFSM
         }
         prevEnemyHP = currentEnemyHP;
     }
+    
 }
