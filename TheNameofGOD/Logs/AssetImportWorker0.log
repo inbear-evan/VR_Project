@@ -15,12 +15,12 @@ C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-12388
+10294
 Successfully changed project path to: C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD
 C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84.54 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.74 ms.
+Refreshing native plugins compatible for Editor in 127.16 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.78 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/B-01-02/Documents/GitHub/VR_Project/TheNameofGOD/Assets
@@ -39,1192 +39,139 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002054 seconds.
+Registered in 0.002102 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.33 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 78.09 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.990 seconds
+- Completed reload, in  2.010 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005923 seconds.
+Registered in 0.005871 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  1.093 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 222.3 MB.
-System memory in use after: 221.8 MB.
-
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2823.
-Total: 2.478200 ms (FindLiveObjects: 0.203300 ms CreateObjectMapping: 0.087200 ms MarkObjects: 1.767300 ms  DeleteObjects: 0.419500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/CMS_Project/Scene/PlayMap.unity
-  artifactKey: Guid(6627d6ed72994504e87f23e11f142483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Scene/PlayMap.unity using Guid(6627d6ed72994504e87f23e11f142483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249eaff637da43f7f5ae23225fac83f6') in 0.015349 seconds
-  Import took 0.018922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.831209 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJPhase.cs
-  artifactKey: Guid(d1e201f40ababc849bd4ee66da8e5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJPhase.cs using Guid(d1e201f40ababc849bd4ee66da8e5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86f0d20f476c53d103425690a0660f6') in 0.024533 seconds
-  Import took 0.028438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003522 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJPhase.cs
-  artifactKey: Guid(d1e201f40ababc849bd4ee66da8e5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJPhase.cs using Guid(d1e201f40ababc849bd4ee66da8e5df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86f0d20f476c53d103425690a0660f6') in 0.001926 seconds
-  Import took 0.005440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.332958 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04759037a1e0168b71b0e9b33f6f02c2') in 0.005227 seconds
-  Import took 0.008672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.187728 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04759037a1e0168b71b0e9b33f6f02c2') in 0.001590 seconds
-  Import took 0.005159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.345563 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e89a7f6c7c7e64e6765bcdd89f73326') in 0.001995 seconds
-  Import took 0.006321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.256314 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764621201b3d508ed3aadd819e560e8b') in 0.002525 seconds
-  Import took 0.006829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.113901 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d508a23ff4db0448000bba3c04da18d') in 0.002196 seconds
-  Import took 0.005810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.846004 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3e56ccd9c297ca470848b7e7cb563b') in 0.002339 seconds
-  Import took 0.006129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.704768 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa9737cfc62bc403770a12eb31343d8') in 0.001930 seconds
-  Import took 0.005559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.247795 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c34a7aa870b124b6fc9dbfcc61cb8fe') in 0.002194 seconds
-  Import took 0.005857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.148242 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959a0b52d43001449d79003f5d1fb45c') in 0.002269 seconds
-  Import took 0.006162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.167047 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs
-  artifactKey: Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/YJEnemyFSM.cs using Guid(a9dcb06e5abbe6041a9e4a2dce8644d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26580694788c234df380cf176d325db1') in 0.002333 seconds
-  Import took 0.006776 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006900 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.7 MB.
-System memory in use after: 211.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2827.
-Total: 2.624100 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.102300 ms MarkObjects: 1.902600 ms  DeleteObjects: 0.388500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006364 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.7 MB.
-System memory in use after: 211.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2831.
-Total: 2.647100 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.087800 ms MarkObjects: 1.901300 ms  DeleteObjects: 0.409700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2835.
-Total: 2.694600 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.092100 ms MarkObjects: 1.947200 ms  DeleteObjects: 0.435400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005741 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2839.
-Total: 3.485600 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.256700 ms  DeleteObjects: 0.801300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006403 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.7 MB.
-System memory in use after: 211.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2843.
-Total: 2.932800 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.122100 ms MarkObjects: 2.073700 ms  DeleteObjects: 0.454500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005734 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2847.
-Total: 2.717800 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.112100 ms MarkObjects: 1.915900 ms  DeleteObjects: 0.440800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005733 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2851.
-Total: 2.699400 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.088200 ms MarkObjects: 1.901000 ms  DeleteObjects: 0.477600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005831 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2855.
-Total: 3.033700 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.105900 ms MarkObjects: 2.059000 ms  DeleteObjects: 0.626800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005959 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2859.
-Total: 4.097800 ms (FindLiveObjects: 0.578100 ms CreateObjectMapping: 0.313100 ms MarkObjects: 2.532300 ms  DeleteObjects: 0.672900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006079 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.3 MB.
+Unloading 2550 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.4 MB.
+System memory in use after: 242.9 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2863.
-Total: 3.367900 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.166500 ms MarkObjects: 2.277800 ms  DeleteObjects: 0.593500 ms)
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3003.
+Total: 2.509700 ms (FindLiveObjects: 0.238000 ms CreateObjectMapping: 0.109400 ms MarkObjects: 1.718500 ms  DeleteObjects: 0.442700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/KYG_Project/Scripts/kyg_Sword.cs
+  artifactKey: Guid(c9bdeab7622226c45b9c06b9cfffc143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KYG_Project/Scripts/kyg_Sword.cs using Guid(c9bdeab7622226c45b9c06b9cfffc143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d21544f8ab51f0939b3f0bd4d0078d') in 0.021564 seconds
+  Import took 0.025200 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005970 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2867.
-Total: 3.217500 ms (FindLiveObjects: 0.257100 ms CreateObjectMapping: 0.107000 ms MarkObjects: 2.389700 ms  DeleteObjects: 0.462400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005508 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2871.
-Total: 2.680700 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.088800 ms MarkObjects: 1.913100 ms  DeleteObjects: 0.435900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006455 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2875.
-Total: 2.840900 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.093700 ms MarkObjects: 2.078800 ms  DeleteObjects: 0.444600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005542 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2879.
-Total: 3.435600 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.400700 ms  DeleteObjects: 0.596600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005546 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.8 MB.
-System memory in use after: 211.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2883.
-Total: 2.710400 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.087000 ms MarkObjects: 1.988500 ms  DeleteObjects: 0.431700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005447 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.20 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2887.
-Total: 2.910900 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.120700 ms  DeleteObjects: 0.461700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005440 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2891.
-Total: 2.628100 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.096200 ms MarkObjects: 1.826500 ms  DeleteObjects: 0.440100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005428 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2895.
-Total: 2.563900 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.104000 ms MarkObjects: 1.783700 ms  DeleteObjects: 0.433300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006189 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 211.9 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2899.
-Total: 2.577400 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.088400 ms MarkObjects: 1.823200 ms  DeleteObjects: 0.453900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006789 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2903.
-Total: 2.635500 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.110000 ms MarkObjects: 1.810800 ms  DeleteObjects: 0.455700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.968 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2907.
-Total: 2.636700 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.101200 ms MarkObjects: 1.851800 ms  DeleteObjects: 0.464000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005540 seconds.
+Registered in 0.005964 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
+- Completed reload, in  1.043 seconds
 Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2911.
-Total: 2.677000 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.092000 ms MarkObjects: 1.918700 ms  DeleteObjects: 0.443100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005631 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 211.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2915.
-Total: 2.492400 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.103000 ms MarkObjects: 1.704600 ms  DeleteObjects: 0.440500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2568.424559 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81c61d99bba08b653630caf03a1e8d1') in 1.234697 seconds
-  Import took 1.240420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25b6b465b9ef14d7a592c9d1a1f8cfa') in 0.144833 seconds
-  Import took 0.149644 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005617 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.1 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2927.
-Total: 3.083900 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.114700 ms MarkObjects: 2.086100 ms  DeleteObjects: 0.633600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.1 MB.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 223.7 MB.
+System memory in use after: 223.3 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2931.
-Total: 2.900400 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.096300 ms MarkObjects: 2.089800 ms  DeleteObjects: 0.450400 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3007.
+Total: 2.533300 ms (FindLiveObjects: 0.229700 ms CreateObjectMapping: 0.096800 ms MarkObjects: 1.805900 ms  DeleteObjects: 0.400000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005867 seconds.
+Registered in 0.006409 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.1 MB.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 223.8 MB.
+System memory in use after: 223.3 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2935.
-Total: 2.843200 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.107000 ms MarkObjects: 2.038500 ms  DeleteObjects: 0.448400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005568 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.1 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2939.
-Total: 2.869900 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.114900 ms  DeleteObjects: 0.444900 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 2.766700 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.093800 ms MarkObjects: 1.975900 ms  DeleteObjects: 0.429700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 340.172028 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35e9420f9315a7299047b710ab91135') in 0.368577 seconds
-  Import took 0.374604 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005566 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.1 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2944.
-Total: 2.591000 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.087900 ms MarkObjects: 1.861500 ms  DeleteObjects: 0.428000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.399439 seconds.
+  Time since last request: 1337.929569 seconds.
   path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
   artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e76ada9fddf11044eac6e19bea9a61') in 0.207730 seconds
-  Import took 0.213445 seconds .
+Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d20d6e2e8fd02334d24363633919cf') in 0.333992 seconds
+  Import took 0.339992 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006272 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.5 MB.
-System memory in use after: 228.1 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2949.
-Total: 3.210600 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.145300 ms MarkObjects: 2.292700 ms  DeleteObjects: 0.470100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006163 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2953.
-Total: 2.930500 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.022500 ms  DeleteObjects: 0.510000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.781467 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e88d6db80f9f7004ab41f372688165') in 0.249720 seconds
-  Import took 0.256846 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005639 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2958.
-Total: 3.023500 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.115900 ms MarkObjects: 2.176400 ms  DeleteObjects: 0.461700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006498 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2962.
-Total: 2.991900 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.094200 ms MarkObjects: 2.180100 ms  DeleteObjects: 0.491300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005932 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2966.
-Total: 2.840400 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.054400 ms  DeleteObjects: 0.469300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005739 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.1 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2970.
-Total: 3.303000 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.479100 ms  DeleteObjects: 0.475300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007509 seconds.
+Registered in 0.005917 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
+- Completed reload, in  0.977 seconds
 Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2974.
-Total: 3.454000 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.594000 ms  DeleteObjects: 0.498300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006074 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.090 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2978.
-Total: 2.971500 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.215600 ms  DeleteObjects: 0.454500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006047 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.132 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2982.
-Total: 3.561400 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.649400 ms  DeleteObjects: 0.523600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005543 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2986.
-Total: 3.453200 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.100500 ms MarkObjects: 2.579500 ms  DeleteObjects: 0.507600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007051 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.6 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2990.
-Total: 3.143300 ms (FindLiveObjects: 0.307200 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.214500 ms  DeleteObjects: 0.477100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005668 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.3 MB.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.0 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2994.
-Total: 3.248500 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.296200 ms  DeleteObjects: 0.569800 ms)
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3024.
+Total: 2.719900 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.089700 ms MarkObjects: 1.928600 ms  DeleteObjects: 0.450200 ms)
 
 ========================================================================
 Received Prepare
@@ -1233,1619 +180,196 @@ Registered in 0.005957 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  1.007 seconds
 Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.3 MB.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.0 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2998.
-Total: 4.314600 ms (FindLiveObjects: 0.848200 ms CreateObjectMapping: 0.281900 ms MarkObjects: 2.693400 ms  DeleteObjects: 0.487600 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3028.
+Total: 3.070300 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.196100 ms  DeleteObjects: 0.515200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005768 seconds.
+Registered in 0.005784 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.0 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3032.
+Total: 3.018000 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.087700 ms  DeleteObjects: 0.508600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
+- Completed reload, in  0.970 seconds
 Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.3 MB.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.0 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3002.
-Total: 3.579400 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.186600 ms MarkObjects: 2.560700 ms  DeleteObjects: 0.482500 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3036.
+Total: 3.115400 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.141100 ms MarkObjects: 2.133000 ms  DeleteObjects: 0.542400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005668 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3006.
-Total: 3.199600 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.313900 ms  DeleteObjects: 0.491300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1280.927146 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f620623b3949fdfff0d26ba01ba60d6') in 0.785002 seconds
-  Import took 0.791542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.107076 seconds.
-  path: Assets/CMS_Project/Anim/Attack.anim
-  artifactKey: Guid(e0c691781730b9648931edb0ed4eb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Attack.anim using Guid(e0c691781730b9648931edb0ed4eb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc96139659bb990a5e5dff255fd4eeb') in 0.041471 seconds
-  Import took 0.045599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007355 seconds.
-  path: Assets/CMS_Project/Anim/Attack.anim
-  artifactKey: Guid(e0c691781730b9648931edb0ed4eb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Attack.anim using Guid(e0c691781730b9648931edb0ed4eb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc96139659bb990a5e5dff255fd4eeb') in 0.042408 seconds
-  Import took 0.047834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.897795 seconds.
-  path: Assets/CMS_Project/Anim/Die.anim
-  artifactKey: Guid(785d52b9ed1fcd747a535061f000204d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Die.anim using Guid(785d52b9ed1fcd747a535061f000204d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6bd36ad002b6a46778f2ebb66fc527') in 0.055213 seconds
-  Import took 0.059810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.257584 seconds.
-  path: Assets/CMS_Project/Anim/Walk.anim
-  artifactKey: Guid(f8529d48a63d6734997cc3b1e40d5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Walk.anim using Guid(f8529d48a63d6734997cc3b1e40d5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebdddf9eb1358fa000146b84ce60e82') in 0.040932 seconds
-  Import took 0.045474 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005600 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.7 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 2.985600 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.144800 ms  DeleteObjects: 0.465900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006315 seconds.
+Registered in 0.006711 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
+- Completed reload, in  1.067 seconds
 Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.05 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.3 MB.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.0 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3015.
-Total: 4.289700 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.346300 ms MarkObjects: 3.074800 ms  DeleteObjects: 0.579800 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3040.
+Total: 2.663800 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.100300 ms MarkObjects: 1.851300 ms  DeleteObjects: 0.462800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005930 seconds.
+Registered in 0.005858 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.1 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3044.
+Total: 2.721400 ms (FindLiveObjects: 0.263600 ms CreateObjectMapping: 0.108400 ms MarkObjects: 1.891600 ms  DeleteObjects: 0.457000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3019.
-Total: 3.669800 ms (FindLiveObjects: 0.429400 ms CreateObjectMapping: 0.141800 ms MarkObjects: 2.543000 ms  DeleteObjects: 0.554000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3023.
-Total: 2.776900 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.095200 ms MarkObjects: 1.930200 ms  DeleteObjects: 0.509000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006381 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.134 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3027.
-Total: 3.071500 ms (FindLiveObjects: 0.289600 ms CreateObjectMapping: 0.113600 ms MarkObjects: 2.179400 ms  DeleteObjects: 0.487800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006035 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3031.
-Total: 3.078700 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.103500 ms MarkObjects: 2.202300 ms  DeleteObjects: 0.469400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007080 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.3 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3035.
-Total: 2.814600 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.006600 ms  DeleteObjects: 0.446900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005633 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.040 seconds
 Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.3 MB.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.1 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3039.
-Total: 2.721100 ms (FindLiveObjects: 0.237100 ms CreateObjectMapping: 0.093500 ms MarkObjects: 1.939300 ms  DeleteObjects: 0.450000 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3048.
+Total: 3.182300 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.135300 ms MarkObjects: 2.156300 ms  DeleteObjects: 0.590000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005779 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3043.
-Total: 3.568000 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.761000 ms  DeleteObjects: 0.462300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005801 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3047.
-Total: 2.746600 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.093900 ms MarkObjects: 1.948900 ms  DeleteObjects: 0.452300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1176.557863 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d200efd6df5b64000c3ac902c60e52') in 0.589787 seconds
-  Import took 0.597155 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005445 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3052.
-Total: 2.972300 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.097300 ms MarkObjects: 2.124500 ms  DeleteObjects: 0.465200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 185.136289 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a36a4619a43f677bc495537a6423a71') in 0.210382 seconds
-  Import took 0.216508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.082297 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac4fecfcff0f0af0042a25e7d0581a5') in 0.127696 seconds
-  Import took 0.132363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.843286 seconds.
-  path: Assets/CMS_Project/Anim/Hit.anim
-  artifactKey: Guid(77b819c6b1ac93c449f1863e2bcf0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Hit.anim using Guid(77b819c6b1ac93c449f1863e2bcf0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09e59640b5a0f2833fe01c2e8fec677') in 0.024567 seconds
-  Import took 0.028774 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005710 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.8 MB.
-System memory in use after: 228.4 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3057.
-Total: 3.249300 ms (FindLiveObjects: 0.312200 ms CreateObjectMapping: 0.176900 ms MarkObjects: 2.320200 ms  DeleteObjects: 0.439000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.857980 seconds.
-  path: Assets/CMS_Project/Anim/Hit.anim
-  artifactKey: Guid(77b819c6b1ac93c449f1863e2bcf0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Hit.anim using Guid(77b819c6b1ac93c449f1863e2bcf0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ae0d3cebb7dd588ce35c18042de76c') in 0.044664 seconds
-  Import took 0.049429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/CMS_Project/Anim/Attack.anim
-  artifactKey: Guid(e0c691781730b9648931edb0ed4eb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Attack.anim using Guid(e0c691781730b9648931edb0ed4eb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bc3919be666c38624ce8f4f3f1efae') in 0.032758 seconds
-  Import took 0.036826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.811419 seconds.
-  path: Assets/CMS_Project/Anim/Hit.anim
-  artifactKey: Guid(77b819c6b1ac93c449f1863e2bcf0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Hit.anim using Guid(77b819c6b1ac93c449f1863e2bcf0e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd83defde57a62071e28ed57a2a884e') in 0.014652 seconds
-  Import took 0.019531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.169234 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e562a972e01ab9453c3c8fb14e8436d5') in 0.184264 seconds
-  Import took 0.189334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.204913 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3045020f73a664658549f9f4f64cc7a2') in 0.139388 seconds
-  Import took 0.144108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.234284 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d1030a5acfd06ec9159f9e374e5195') in 0.141069 seconds
-  Import took 0.146019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.125493 seconds.
-  path: Assets/CMS_Project/Anim/Walk.anim
-  artifactKey: Guid(f8529d48a63d6734997cc3b1e40d5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CMS_Project/Anim/Walk.anim using Guid(f8529d48a63d6734997cc3b1e40d5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23884c22e1789ae442e48d074ebde3f') in 0.032303 seconds
-  Import took 0.036002 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005913 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3062.
-Total: 2.743200 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.000500 ms  DeleteObjects: 0.414500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005509 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3066.
-Total: 3.182400 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.138300 ms MarkObjects: 2.274100 ms  DeleteObjects: 0.473400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006086 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3070.
-Total: 3.061200 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.236500 ms  DeleteObjects: 0.432500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3074.
-Total: 3.360300 ms (FindLiveObjects: 0.343300 ms CreateObjectMapping: 0.138400 ms MarkObjects: 2.422300 ms  DeleteObjects: 0.455100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005538 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.9 MB.
-System memory in use after: 228.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3078.
-Total: 2.695000 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.089500 ms MarkObjects: 1.920000 ms  DeleteObjects: 0.443900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005600 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3082.
-Total: 2.896900 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.103900 ms MarkObjects: 1.982800 ms  DeleteObjects: 0.547000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006682 seconds.
+Registered in 0.005574 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  0.965 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3086.
-Total: 2.639300 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.087700 ms MarkObjects: 1.910500 ms  DeleteObjects: 0.407400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005636 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3090.
-Total: 3.207800 ms (FindLiveObjects: 0.278800 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.400200 ms  DeleteObjects: 0.423400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005604 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.117 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3094.
-Total: 2.958400 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.139700 ms  DeleteObjects: 0.427400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006123 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3098.
-Total: 3.663100 ms (FindLiveObjects: 0.344500 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.643900 ms  DeleteObjects: 0.529400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3102.
-Total: 2.820200 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.092400 ms MarkObjects: 2.073400 ms  DeleteObjects: 0.417300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005570 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3106.
-Total: 3.053300 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.120000 ms MarkObjects: 2.219400 ms  DeleteObjects: 0.426900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1735.505942 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c985c359e634df4d0e035f9739f80334') in 0.709302 seconds
-  Import took 0.715914 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005654 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 228.5 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3111.
-Total: 3.313100 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.502900 ms  DeleteObjects: 0.430900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 328.246012 seconds.
-  path: Assets/YJ_Progect/YJ_Scripts/BillBoard.cs
-  artifactKey: Guid(4ca261b895bced949a8fb73808788e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Scripts/BillBoard.cs using Guid(4ca261b895bced949a8fb73808788e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2a8d6cc96e7966e3069972f95ba717') in 0.010391 seconds
-  Import took 0.016289 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007130 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3116.
-Total: 3.177100 ms (FindLiveObjects: 0.278400 ms CreateObjectMapping: 0.088300 ms MarkObjects: 2.370900 ms  DeleteObjects: 0.438400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005522 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3120.
-Total: 2.968200 ms (FindLiveObjects: 0.274600 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.185800 ms  DeleteObjects: 0.414700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.904095 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbcfee9ae3408d55a4f5371940e58af') in 0.328295 seconds
-  Import took 0.334745 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005856 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3125.
-Total: 2.975900 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.174700 ms  DeleteObjects: 0.440200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.251411 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ede44637c434957948874e7494e047') in 0.231361 seconds
-  Import took 0.237667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.197621 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df92da8e233b374c5655c79f6e23d58') in 0.150637 seconds
-  Import took 0.156042 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006434 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.976 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3130.
-Total: 3.165300 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.361800 ms  DeleteObjects: 0.439100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006093 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.6 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3134.
-Total: 2.976700 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.092900 ms MarkObjects: 2.205200 ms  DeleteObjects: 0.414800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005513 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3138.
-Total: 2.850000 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.051700 ms  DeleteObjects: 0.434700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 163.961144 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da20f73e1a14dc8ba31dfa078b2d7a5') in 0.296557 seconds
-  Import took 0.302999 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005859 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 3.228400 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.435800 ms  DeleteObjects: 0.418500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.509000 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f92cf5b4ddc6c6898e1ba511f287035') in 0.235947 seconds
-  Import took 0.242058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.247940 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209f503bb350b70f30c04e2121f24a41') in 0.139419 seconds
-  Import took 0.144408 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006247 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3148.
-Total: 3.235200 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.381300 ms  DeleteObjects: 0.463600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3152.
-Total: 2.908400 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.074300 ms  DeleteObjects: 0.426900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.685496 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720bd68f737efa5683871004898f8183') in 0.233571 seconds
-  Import took 0.239948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e957b45d01c55ab74dc34d7c8984e8') in 0.134352 seconds
-  Import took 0.139549 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005678 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.047 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.1 MB.
-System memory in use after: 228.7 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3157.
-Total: 3.218300 ms (FindLiveObjects: 0.359100 ms CreateObjectMapping: 0.118700 ms MarkObjects: 2.264300 ms  DeleteObjects: 0.475100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008346 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3161.
-Total: 3.084900 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.110400 ms MarkObjects: 2.246800 ms  DeleteObjects: 0.450300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005781 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3165.
-Total: 2.993500 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.193000 ms  DeleteObjects: 0.426600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3169.
-Total: 3.366500 ms (FindLiveObjects: 0.322200 ms CreateObjectMapping: 0.131700 ms MarkObjects: 2.429300 ms  DeleteObjects: 0.482200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005439 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.024 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3173.
-Total: 2.784000 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.112900 ms MarkObjects: 1.944600 ms  DeleteObjects: 0.426000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005635 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3177.
-Total: 3.126400 ms (FindLiveObjects: 0.314700 ms CreateObjectMapping: 0.152600 ms MarkObjects: 2.226800 ms  DeleteObjects: 0.431300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005757 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.986 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3181.
-Total: 3.228700 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.087000 ms MarkObjects: 2.414800 ms  DeleteObjects: 0.438500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005600 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3185.
-Total: 2.968100 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.110400 ms MarkObjects: 2.096300 ms  DeleteObjects: 0.464200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1068.523823 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f114b53fd48b3b57f70b8c6881f5bc') in 0.486780 seconds
-  Import took 0.492947 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005634 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.8 MB.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.1 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3190.
-Total: 3.283000 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.154200 ms MarkObjects: 2.379600 ms  DeleteObjects: 0.444400 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3052.
+Total: 2.773900 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.098800 ms MarkObjects: 1.934400 ms  DeleteObjects: 0.465800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006080 seconds.
+Registered in 0.005761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
+- Completed reload, in  1.095 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.8 MB.
+Unloading 2318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.5 MB.
+System memory in use after: 240.1 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3194.
-Total: 3.339500 ms (FindLiveObjects: 0.298600 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.467900 ms  DeleteObjects: 0.461400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3198.
-Total: 3.021200 ms (FindLiveObjects: 0.263200 ms CreateObjectMapping: 0.094000 ms MarkObjects: 2.238100 ms  DeleteObjects: 0.424800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008840 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.374 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.8 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3202.
-Total: 2.741000 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.098100 ms MarkObjects: 1.963300 ms  DeleteObjects: 0.420300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007987 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3206.
-Total: 3.748900 ms (FindLiveObjects: 0.651600 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.481100 ms  DeleteObjects: 0.444500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005611 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3210.
-Total: 3.484500 ms (FindLiveObjects: 0.307500 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.629900 ms  DeleteObjects: 0.449400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 341.293806 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf32188a9283574b216a00fc34278705') in 0.431193 seconds
-  Import took 0.437202 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006279 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.414 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.9 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3215.
-Total: 4.754600 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.121700 ms MarkObjects: 3.590100 ms  DeleteObjects: 0.689700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005455 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3219.
-Total: 2.819000 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.046000 ms  DeleteObjects: 0.408800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006103 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.192 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.3 MB.
-System memory in use after: 228.9 MB.
-
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3223.
-Total: 3.295800 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.105100 ms MarkObjects: 2.458500 ms  DeleteObjects: 0.444200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 287.047607 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f57dda6309c8044e16effaa494aa0f5') in 0.285363 seconds
-  Import took 0.291490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.347958 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab
-  artifactKey: Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy2.prefab using Guid(ef95ead7aa5a5da4dbf36ee255d01510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926f61700711ed037fe8a0e0f31b96ee') in 0.137590 seconds
-  Import took 0.143900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.565803 seconds.
-  path: Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab
-  artifactKey: Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YJ_Progect/YJ_Prefabs/Enemy.prefab using Guid(51f672f27ae822e4b8b0c4b3bbb8e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd984a9295fae37be9cdafaa110faad1') in 0.139981 seconds
-  Import took 0.145031 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005803 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2236 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.4 MB.
-System memory in use after: 228.9 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3228.
-Total: 3.475000 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.558500 ms  DeleteObjects: 0.465400 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3056.
+Total: 2.694500 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.104500 ms MarkObjects: 1.842700 ms  DeleteObjects: 0.505700 ms)
 

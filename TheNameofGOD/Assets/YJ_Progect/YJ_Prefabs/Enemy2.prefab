@@ -82,7 +82,7 @@ MonoBehaviour:
   moveDistance: 20
   yVelocity: 0
   flyPower: 15
-  hp: {fileID: 1893909605156681150}
+  shieldParticle: {fileID: 3465276431695851246, guid: 7e6d400d7925d5a48bab111c6c8966ce, type: 3}
   currentEnemyHP: 50
 --- !u!114 &5821060331513910560
 MonoBehaviour:
@@ -519,6 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d22ea9e956858074482b340bd4ede16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieEffectFac: {fileID: 100016, guid: dda7747411ec00d4fa3c35e0142de10a, type: 3}
 --- !u!1 &9074469466912970386
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,7 +689,7 @@ PrefabInstance:
     - target: {fileID: 2709686675758819190, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b43c1c307fb5870448f96444969f00c8, type: 2}
+      objectReference: {fileID: 2100000, guid: df8c5f85a9513f042a9a4ba29966ed4b, type: 2}
     - target: {fileID: 2839592925974600878, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -772,6 +773,10 @@ PrefabInstance:
     - target: {fileID: 5782893275517815973, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810740305268877370, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5826255114371919667, guid: 3ad83984770e188409420d1cacdcc46f, type: 3}
       propertyPath: m_RootOrder

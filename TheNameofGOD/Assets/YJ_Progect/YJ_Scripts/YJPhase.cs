@@ -34,6 +34,7 @@ public class YJPhase : MonoBehaviour
     }
     IEnumerator IEspwanTime(float time)
     {
+        yield return new WaitForSeconds(1);
         while (true)
         {
             yield return new WaitForSeconds(time);

@@ -53,6 +53,7 @@ MonoBehaviour:
   moveDistance: 20
   yVelocity: 0
   flyPower: 10
+  shieldParticle: {fileID: 3465276431695851246, guid: 7e6d400d7925d5a48bab111c6c8966ce, type: 3}
   currentEnemyHP: 500
 --- !u!143 &3412821266775236544
 CharacterController:
@@ -193,6 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d22ea9e956858074482b340bd4ede16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dieEffectFac: {fileID: 100016, guid: dda7747411ec00d4fa3c35e0142de10a, type: 3}
 --- !u!1001 &3982877028246457382
 PrefabInstance:
   m_ObjectHideFlags: 0
